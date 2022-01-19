@@ -1,7 +1,9 @@
-// Your code goes here
+// // Your code goes here
 
-document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector("#text").innerHTML = "This is really cool!"
-});
+document.addEventListener('DOMContentLoaded', function() {
+    domUpdated()
+})
 
-
+function domUpdated() {
+    return document.getElementById('text').innerHTML = "This is really cool!"
+}
